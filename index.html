@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encrypt & Decrypt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo-container">
+            <img src="fatherland.png" alt="Logo" class="logo">
+            <h2>Crypto Dripto</h2>
+        </div>
+        <div class="navpic-container">
+        <a onclick="showSection('crypto')">
+            <img src="ironcross.png" alt="Encrypt Icon" class="navpic"> Encrypt & Decrypt
+        </a>
+        </div>
+        <div class="navpic-container">
+        <a onclick="showSection('video')">
+            <img src="ironcross.png" alt="Video Icon" class="navpic"> Video
+        </a>
+        </div>
+        <div class="navpic-container">
+        <a onclick="showSection('discussion')">
+            <img src="ironcross.png" alt="Discussion Icon" class="navpic"> Discussion
+        </a>
+        </div>
+    </div>
+    <div class="content">
+        <div class="container">
+        <div id="crypto" class="section active">
+            <h2>Encryption and Decryption Sector</h2>
+            
+            <h3>Encryption Section</h3>
+            <label for="text">Enter Text:</label>
+            <input type="text" id="text">
+            <label for="shift">Shift:</label>
+            <input type="number" id="shift" min="1" max="25">
+            <button onclick="encrypt()">Encrypt</button>
+            <p>Result: <span id="encryptedText"></span> <button onclick="copyToClipboard()">Copy</button></p>
+            
+            <h3>Decryption Section</h3>
+            <label for="cipherText">Enter Encrypted Text:</label>
+            <input type="text" id="cipherText">
+            <label for="shiftDec">Shift:</label>
+            <input type="number" id="shiftDec" min="1" max="25">
+            <button onclick="decrypt()">Decrypt</button>
+            <p>Result: <span id="decryptedText"></span></p>
+        </div>
+        
+        <div id="video" class="section">
+            <h2>Video Window</h2>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/Hh6C3fNH1dM?si=bBo6af-mTHM_lgF0"
+                        title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+        
+        <div id="discussion" class="section">
+            <h2>Discussion Board</h2>
+            <div class="main-window-content">
+                <h3>Why Is Encryption Important?</h3>
+                <p>Encryption plays a vital role in securing sensitive information and ensuring privacy in digital communications. Its importance can be highlighted in the following key areas:</p>
+                <p class="indented">1. Data Protection – Encryption safeguards personal and financial data, preventing unauthorized access by cybercriminals.</p>
+                <p class="indented">2. Confidentiality in Communication – Encrypted messaging services, such as WhatsApp and Signal, ensure that conversations remain private and protected from eavesdropping.</p>
+                <br>
+                <h3>Can Encryption Be Misused?</h3>
+                <p>Despite its advantages, encryption can be exploited for malicious purposes. Some scenarios where encryption is misused include:</p>
+                <p class="indented">1. Criminal Activities – Cybercriminals use encryption to hide illegal activities, such as money laundering and ransomware attacks.</p>
+                <p class="indented">2. Obstruction of Justice – Encryption can be used to prevent law enforcement agencies from accessing critical information related to criminal investigations.</p>
+                <br>
+                <h3>Ethical Concerns About Encryption</h3>
+                <p>The ethical implications of encryption have sparked global debates, especially concerning the balance between privacy and security. Some real-life ethical concerns include:</p>
+                <p class="indented">1. Apple vs. FBI (2016) – The FBI requested Apple to unlock an iPhone belonging to a suspect in the San Bernardino terrorist attack. Apple refused, citing privacy concerns (Greenberg, 2016).</p>
+                <p class="indented">2. End-to-End Encryption and Law Enforcement – Governments have expressed concerns over end-to-end encryption used in apps like WhatsApp, arguing that it hinders their ability to investigate criminal activities (Newman, 2020).</p>
+            </div>
+        </div>
+    </div> </div>
+    <script src="script.js"></script>
+</body>
+</html>
