@@ -1,3 +1,8 @@
+<div align="center">
+
+
+<img src="tokai.gif" alt="Spring" style="width:100%; max-width:600px; border-radius:15px;" />
+
 - 👋 Hi, I’m @Irohavenot
 - 👀 I’m interested in anything except insanity.
 - 🌱 I’m currently learning every damn thing.
@@ -6,7 +11,6 @@
 - 😄 Pronouns: Him/He Pro Plus Absolute Homophobic
 - ⚡ Fun fact: I aint fun. 
 
-<!---
-Irohavenot/Irohavenot is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+
+
+</div>
