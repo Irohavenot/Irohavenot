@@ -6,10 +6,10 @@
 - 👋 Hi, I’m @Irohavenot
 - 👀 I’m interested in anything except insanity.
 - 🌱 I’m currently learning every damn thing.
-- 💞️ I’m looking to collaborate on anyone who an expert.
-- 📫 How to reach me, Dont.
-- 😄 Pronouns: Him/He Pro Plus Absolute Homophobic
-- ⚡ Fun fact: I aint fun. 
+- 💞️ I’m looking to collaborate with anyone who's an expert.
+- 📫 How to reach me, email me "ronzelgo21@gmail.com".
+- 😄 Pronouns: Him/He.
+- ⚡ Fun fact: I aint fun, but will be at times. 
 
 
 
